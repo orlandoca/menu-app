@@ -5,7 +5,7 @@
 const SHEET_ID = "15O8MG61R19V7MlJkizUkTDdspC0C25AEu8KNVY7EgOo";
 
 const ACCESS_TOKEN =
-"ya29.a0Aa4xrXOQoNn3I14_CBrtUMQX-ua30H0vU4Fz7sLpo-h0V1dIPNjhlmZdqGO53YCCZlztSy4W1-YTAtWQNvrV7iMkykR-HzvEOIcyWuRSqbDrjp2PomUpjWCsky3rlGIocoRJ7ixY3xiyLtfwPnuoY_URSs9aaCgYKATASARASFQEjDvL9L_HFXil6SmwiQi_iY49ZJg0163";
+"ya29.a0Aa4xrXMOPc-BAuWyFJwLHozTQfcSvMyjPmUZexpK6_qbSN26RyaSx34CfAHpAhEVH589gisoqr7JJnpjSa2Q-lj6nc90MtA4g4ciHlnwjja0zE26ysCahUDl6j_rc6otvS5hPE-wSDkYzj8UiQ7h3YyF6lFZaCgYKATASAQ4SFQEjDvL9HNVRoUlWmfzQyXEHoQTJdw0163";
 fetch(
   // Obtenemos los datos de la planilla, de la hoja hojaMenu, columnas A y B desde la segunda fila
   `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/bebidas!A2:D5`,
